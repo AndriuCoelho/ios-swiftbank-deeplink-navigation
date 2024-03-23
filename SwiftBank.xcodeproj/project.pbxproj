@@ -37,6 +37,7 @@
 		1896D9F62BADFA380021EFFE /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896D9F52BADFA380021EFFE /* Route.swift */; };
 		1896D9F82BADFB250021EFFE /* PixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896D9F72BADFB250021EFFE /* PixView.swift */; };
 		1896D9FA2BADFB8F0021EFFE /* RouterHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896D9F92BADFB8F0021EFFE /* RouterHandler.swift */; };
+		18F2A1932BAF1EDA0088BE52 /* URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2A1922BAF1EDA0088BE52 /* URLExtension.swift */; };
 		E0446C1DF043357E3B3B7BF7 /* Pods_SwiftBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14BA423D88A03FA1C9A7A521 /* Pods_SwiftBank.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +76,7 @@
 		1896D9F52BADFA380021EFFE /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		1896D9F72BADFB250021EFFE /* PixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixView.swift; sourceTree = "<group>"; };
 		1896D9F92BADFB8F0021EFFE /* RouterHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterHandler.swift; sourceTree = "<group>"; };
+		18F2A1922BAF1EDA0088BE52 /* URLExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtension.swift; sourceTree = "<group>"; };
 		4F207B06DFE9393FDCC52184 /* Pods-SwiftBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBank.release.xcconfig"; path = "Target Support Files/Pods-SwiftBank/Pods-SwiftBank.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -249,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				188629CF2B89154400DA3CCD /* DictionaryDecodable.swift */,
+				18F2A1922BAF1EDA0088BE52 /* URLExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -439,6 +442,7 @@
 				188629C92B890E2F00DA3CCD /* SectionModel.swift in Sources */,
 				188629C72B88EC3F00DA3CCD /* TextModel.swift in Sources */,
 				188629E12B8A357A00DA3CCD /* GenericSection.swift in Sources */,
+				18F2A1932BAF1EDA0088BE52 /* URLExtension.swift in Sources */,
 				1896D9F62BADFA380021EFFE /* Route.swift in Sources */,
 				1896D9F82BADFB250021EFFE /* PixView.swift in Sources */,
 				03E5D8E82B425BC700B9BC9A /* ActivitiesView.swift in Sources */,
