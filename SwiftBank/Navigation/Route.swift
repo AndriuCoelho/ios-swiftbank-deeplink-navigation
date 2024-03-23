@@ -11,6 +11,7 @@ import SBLoan
 enum Route {
     case loan(id: String, amount: String)
     case pix
+    case error
 }
 
 extension Route: View {
@@ -21,6 +22,8 @@ extension Route: View {
             SBLoanView(amount)
         case .pix:
             PixView()
+        case .error:
+            GenericErrorView()
         }
     }
 }

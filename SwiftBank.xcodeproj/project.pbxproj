@@ -38,6 +38,7 @@
 		1896D9F82BADFB250021EFFE /* PixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896D9F72BADFB250021EFFE /* PixView.swift */; };
 		1896D9FA2BADFB8F0021EFFE /* RouterHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896D9F92BADFB8F0021EFFE /* RouterHandler.swift */; };
 		18F2A1932BAF1EDA0088BE52 /* URLExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2A1922BAF1EDA0088BE52 /* URLExtension.swift */; };
+		18F2A1992BAF2A700088BE52 /* GenericErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2A1982BAF2A700088BE52 /* GenericErrorView.swift */; };
 		E0446C1DF043357E3B3B7BF7 /* Pods_SwiftBank.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14BA423D88A03FA1C9A7A521 /* Pods_SwiftBank.framework */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +78,7 @@
 		1896D9F72BADFB250021EFFE /* PixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixView.swift; sourceTree = "<group>"; };
 		1896D9F92BADFB8F0021EFFE /* RouterHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterHandler.swift; sourceTree = "<group>"; };
 		18F2A1922BAF1EDA0088BE52 /* URLExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtension.swift; sourceTree = "<group>"; };
+		18F2A1982BAF2A700088BE52 /* GenericErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericErrorView.swift; sourceTree = "<group>"; };
 		4F207B06DFE9393FDCC52184 /* Pods-SwiftBank.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBank.release.xcconfig"; path = "Target Support Files/Pods-SwiftBank/Pods-SwiftBank.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -177,6 +179,7 @@
 				03E5D8E62B425B9100B9BC9A /* Activities */,
 				188629D42B89232100DA3CCD /* GenericSectionView.swift */,
 				1896D9F72BADFB250021EFFE /* PixView.swift */,
+				18F2A1982BAF2A700088BE52 /* GenericErrorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 				03BD4ABD2B3CC72000341CE2 /* BalanceView.swift in Sources */,
 				1896D9FA2BADFB8F0021EFFE /* RouterHandler.swift in Sources */,
 				03E5D8EE2B45E20F00B9BC9A /* HomeViewModel.swift in Sources */,
+				18F2A1992BAF2A700088BE52 /* GenericErrorView.swift in Sources */,
 				03E5D8FA2B45E50D00B9BC9A /* HTTPClient.swift in Sources */,
 				1896D9EE2BADF0D30021EFFE /* NavigationRouter.swift in Sources */,
 				188629C52B88EC2000DA3CCD /* HomeModel.swift in Sources */,
